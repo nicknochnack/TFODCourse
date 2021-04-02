@@ -28,6 +28,8 @@ Bucket Cors Config Command
 ibmcloud cos bucket-cors-put --bucket nickstfjs --cors-configuration file://corsconfig.json
 </pre>
 
+<br/>
+<br/>
 CORS Config Setup
 <pre>
 cors.config file
