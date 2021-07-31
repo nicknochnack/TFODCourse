@@ -45,7 +45,8 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 <b>Error:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
 <b>Solution:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
 
-
+<b>Error </b> "You already have a newer version of the NVIDIA Frameview SDK installed"<br>
+<b>Solution:</b> In windows desintall The Freamekit and install it again  
 
 Template
 <b>Error:</b> <br/>
