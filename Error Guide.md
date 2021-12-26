@@ -45,7 +45,13 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 <b>Error:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
 <b>Solution:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
 
-
+<b>Error:</b>TypeError: arguments did not match any overloaded call:
+  drawLine(self, QLineF): argument 1 has unexpected type 'float'
+  drawLine(self, QLine): argument 1 has unexpected type 'float'
+  drawLine(self, int, int, int, int): argument 1 has unexpected type 'float'
+  drawLine(self, QPoint, QPoint): argument 1 has unexpected type 'float'
+  drawLine(self, Union[QPointF, QPoint], Union[QPointF, QPoint]): argument 1 has unexpected type 'float'<br/>
+<b>Solution:</b> https://github.com/tzutalin/labelImg/issues/811#issuecomment-977605722
 
 Template
 <b>Error:</b> <br/>
