@@ -45,7 +45,9 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 <b>Error:</b>CUBLAS_STATUS_ALLOC_FAILED or CUDNN_STATUS_ALLOC_FAILED <br/>
 <b>Solution:</b> This is because the available VRAM on your machine is completely consumed and there is no more memory available to train. Quit all of your Python programs and stop your Jupyter Notebook server to free up the VRAM and run the command again. 
 
-
+<b>Error:</b> ERROR: Failed building wheel for pycocotools<br/>
+<b>Solution: Since pycocotools has not been updated for too long because it supports the rewriting of windows. So installing `pycocotools` by the fork repo helps fix the issue. Try the command below. See [here](https://github.com/philferriere/cocoapi) for more details</b> 
+<pre>!pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI</pre>
 
 Template
 <b>Error:</b> <br/>
