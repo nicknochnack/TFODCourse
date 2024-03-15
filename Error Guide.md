@@ -48,6 +48,6 @@ KeyError: 'ThumbsDown' # YOUR LABEL HERE
 
 
 Template
-<b>Error:</b> <br/>
+<b>Error:</b>Getting error " AttributeError: module 'tensorflow.python.ops.control_flow_ops' has no attribute 'case' " while running the training command in google collab <br/>
 <b>Solution:</b> 
 <pre></pre>
